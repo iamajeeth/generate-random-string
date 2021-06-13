@@ -7,6 +7,7 @@ body{
 }
 .svg-content{
     float: left;
+    position: relative;
 }
 .header{
     width: 100%;
@@ -38,4 +39,7 @@ body{
 }
 a{
     color: #033d4f;
+}
+p{
+    padding: 0 1em;
 }
