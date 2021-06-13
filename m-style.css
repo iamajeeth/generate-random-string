@@ -19,7 +19,7 @@ body{
     padding: 12px;
     font-size: 16px;
 }
-.main button{
+/* .main button{
     display: block;
     width: 35%;
     padding: .5em;
@@ -28,7 +28,7 @@ body{
     color: #fff;
     margin-left: 10px;
     font-size: 1em;
-}
+} */
 .main label{
     font-size: 20px;
 }
