@@ -15,6 +15,7 @@ body{
     width: 80%;
     max-width: 100%;
     padding: 12px;
+    font-size: 16px;
 }
 .main button{
     display: block;
