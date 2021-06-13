@@ -32,7 +32,7 @@
     </div>
     <hr>
     <br><br>
-    <div class="main">
+<!--     <div class="main">
             <label for="in">Input first number:</label><br><br>
             <input type="number" id="in-1" placeholder="Enter first number"><br><br>
             <label for="in">Input second number:</label><br><br>
@@ -43,7 +43,33 @@
             <button onclick="generate()" name="Generate" id="generate">Generate</button><br><br>
             <label for="result">Random String Generated: </label><br><br>
             <input type="text" name="random string" id="result" placeholder="Generated Random String goes here...">
-    </div>
+    </div> -->
+    <div class="main">
+        <div class="input-group">
+            <span class="input-group-text" style="background-color: #007CA3;color: #fff;">First number</span>
+            <input type="number" aria-label="First number" class="form-control" id="in-1">
+            <span class="input-group-text" style="background-color: #007CA3;color: #fff;">Second number</span>
+            <input type="number" aria-label="Last number" class="form-control" id="in-2">
+        </div>
+            <!-- <label for="in">Input first number:</label><br><br>
+            <input type="number" id="in-1" placeholder="Enter first number"><br><br>
+            <label for="in">Input second number:</label><br><br>
+            <input type="number" id="in-2" placeholder="Enter second number">--><br> 
+            <button onclick="calc()" class="btn btn-primary">Calculate</button><br><br>
+        <div class="input-group">
+            <span class="input-group-text" style="background-color: #007CA3;color: #fff;">Length of String:</span>
+            <input type="number" aria-label="Length of String" class="form-control" id="los">
+        </div><br>
+            <!-- <label for="los">Length of String: </label><br><br>
+            <input type="number" id="los" placeholder="Enter length of string"><br><br> -->
+            <button onclick="generate()" name="Generate" id="generate" class="btn btn-primary">Generate</button><br><br>
+        <div class="input-group">
+            <span class="input-group-text" style="background-color: #007CA3;color: #fff;">Random String Generated:</span>
+            <input type="text" aria-label="Random String Generated" class="form-control" id="result">
+        </div>
+            <!-- <label for="result">Random String Generated: </label><br><br>
+            <input type="text" name="random string" id="result"> -->
+        </div>
     <br><br>
     <hr>
     <p>For more information: 
