@@ -11,3 +11,10 @@ function random(length){
     }
     return text;
 }
+function calc(){
+    var calc1 = document.getElementById("in-1").value;
+    var calc2 = document.getElementById("in-2").value;
+    var result = calc1 * calc2;
+    document.getElementById("los").value = result;
+    generate();
+}
