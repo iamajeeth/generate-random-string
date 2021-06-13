@@ -1,4 +1,4 @@
-## Welcome to Generate Random String page
+# Welcome to Generate Random String page
 
-Generate random string from the given length
+##Generate random string of any length 
 
