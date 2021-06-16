@@ -10,7 +10,9 @@ body{
     position: relative;
 }
 .header{
-    position: absolute;
+    position: fixed;
+    top:0;
+    left;0;
     width: 100%;
     color: #033d4f;
 }
